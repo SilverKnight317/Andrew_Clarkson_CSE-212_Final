@@ -4,7 +4,7 @@
 
 ## [Welcome](0-Welcome.md)
 - Intro
-- Fast Reference
+- Quick Reference
 
 ## [Stack](1-Stack.md)
 - Intro
