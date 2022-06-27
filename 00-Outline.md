@@ -11,6 +11,7 @@
 - Real world example
 - Uses
 - Coding Example
+- Big O Notation
 - Solveable Problem
 
 ## [Set](2-Set.md)
@@ -18,6 +19,7 @@
 - Real world example
 - Uses
 - Coding Example
+- Big O Notation
 - Solveable Problem
 
 ## [Tree](2-Tree.md)
@@ -25,4 +27,5 @@
 - Real world example
 - Uses
 - Coding Example
+- Big O Notation
 - Solveable Problem
