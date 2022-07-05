@@ -44,5 +44,5 @@ processing_a_stack(item_stack)
 
 ## **Solveable Problem**
 Here is a practice problem to try your knowledge. Try to avoid looking at the solution to see how well you can implement a stack!
-- [problem](PythonStuff/stack_problem.py)
-- [solution](PythonStuff/stack_solution.py)
+- [Problem](PythonStuff/01_stackProblem.py)
+- [Solution](PythonStuff/01_stackSolution.py)
