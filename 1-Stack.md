@@ -1,4 +1,5 @@
 # **Stack**
+###### [Back to Welcome](0-Welcome.md)
 ## **Examples**
 
 A stack is good for memory, or history. Situations that include keeping a history of what occurs can greatly benefit from using stacks.
