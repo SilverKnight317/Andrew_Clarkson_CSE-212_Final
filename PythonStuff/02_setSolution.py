@@ -1,6 +1,11 @@
 '''
 Solveable Problem 
 02_Set
+StoryLine:
+You work at a zoo, and need to see what types of animals 
+are held there and how many duplicates there are. There 
+are also new animals that will be added, so make sure 
+they get added to the animal type set.
 '''
 zoo_animals = ["tiger", "lion", "bear", "meerkat", "cheetah", "boar", "gorilla", 
 "lion", "panda", "red panda", "giraffe", "lion", "boar", 'gorilla', 'bear', 

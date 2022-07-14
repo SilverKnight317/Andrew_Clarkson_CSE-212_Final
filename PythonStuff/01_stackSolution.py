@@ -1,6 +1,11 @@
 '''
 Solveable Problem
 01_Stack
+StoryLine: 
+You are moving from one house to another. You have some kind of 
+uHaul truck that's only able to move 5 items at a time. Get all 
+the items hauled from one house to the other by using the truck's 
+5 item capacity.
 '''
 from queue import Empty
 

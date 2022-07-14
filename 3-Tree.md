@@ -12,8 +12,16 @@ You can think of a family tree for this. You have 2 parents who each also have 2
 
 
 ## **Big O Notation and Commands Within a Tree**
+```
+*Note: There is no specific list of commands for trees within python. That is why the table below has no specific commands shown*
+```
 
+Big O Notation changes throughout different areas within the tree operations
+insert() and remove() types of function have O(logn) due to their organizational style. Functions like traverse_forward, traverse_reverse, height(), and contains() have O(n) because it can depend greatly on the size and length of the overall tree and it's consecutive branches. Functions like size() and empty() have an O(1) since it's like with stacks with only needing to check the overall size.
 
+The commands put onto a table are as follows:
+
+![](images/Tree_Commands512x512.png)
 
 ## **Coding Example**
 ```python
