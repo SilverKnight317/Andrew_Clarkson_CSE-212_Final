@@ -2,7 +2,8 @@
 
 ## **Examples**
 When order within data isn't important, and duplicates are not needed to be counted, a set is very handy to use.
-![](images/Keyring.jpg)
+
+![](images/KeyRing512x512.png)
 
 A set can be thought of as a keyring with keys on it. You have a key for your car, front door, safe, and anything else that would be needed. You don't need another key for your door, and you don't need to put all the keys in a specific order that everyone understands.
 
@@ -15,8 +16,10 @@ The main commands for a set are the add and remove commands. The add command is 
 
 The main commands (and extra commands to check for size and for a specific item within the set), as well as the Big O Notation, are as follows:
 
-![](images/set_commands.png)
+![](images/Set_Commands512x512.png)
+
 ## **Coding Example**
+
 ```python
 keys_in_box = ["house", "car", "church", "safe",
 "truck", "shed", "fence gate", "safe", "car",
