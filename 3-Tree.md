@@ -76,6 +76,6 @@ for x in tree:
 
 ## **Solveable Problem**
 
--![Problem](PythonStuff/)
+-[Problem]*(This will be linked once completed)
 
 -[Solution](PythonStuff/03_TreeSolution.py)
