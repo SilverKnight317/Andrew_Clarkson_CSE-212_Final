@@ -33,17 +33,12 @@ class FamilyTree:
             self._insert(name, self.root)
 
     def _insert(self, name, node):
-        relation = int(input(f"In relation to {node.name}, where does {name} go? \n1. Dad/Dad's side\n2. Mom/Mom's side\n "))
-        if relation == 1:
-            if node.father is None:
-                node.father = FamilyTree.Member(name)
-            else:
-                self._insert(name, node.father)
-        else:
-            if node.mother is None:
-                node.mother = FamilyTree.Member(name)
-            else:
-                self._insert(name, node.mother)
+        '''
+        code goes here.
+        Don't forget that each person's relation to their
+        child needs to be added in. The solution goes 
+        through each relation individually.
+        '''
 
     def name_search(self, name):
         '''
@@ -74,13 +69,13 @@ class FamilyTree:
         return None
 
 fam = FamilyTree()
-fam.insert("Jerry") # root      these are the numbers to put in order:
-fam.insert("Larry") # Dad               1
-fam.insert("Mary")  # Mom               2
-fam.insert("Barry") # Dad's Dad         1, 1
-fam.insert("Sue")   # Dad's Mom         1, 2
-fam.insert("Harry") # Mom's Dad         2, 1
-fam.insert("Linda") # Mom's Mom         2, 2
+fam.insert("Jerry") # root
+fam.insert("Larry") # Dad
+fam.insert("Mary")  # Mom
+fam.insert("Barry") # Dad's Dad
+fam.insert("Sue")   # Dad's Mom
+fam.insert("Harry") # Mom's Dad
+fam.insert("Linda") # Mom's Mom
 
 fam.name_search("Larry")
 fam.name_search("Mary")
